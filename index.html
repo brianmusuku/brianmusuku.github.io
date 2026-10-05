@@ -27,13 +27,13 @@
 </head>
 
 <body>
-  <iframe id="blog-iframe" src="https://portfolio-2bb.pages.dev/" allowfullscreen>
+  <iframe id="blog-iframe" src="https://master.portfolio-2bb.pages.dev/" allowfullscreen>
   </iframe>
   <script>
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get('id');
     if (id) {
-      document.getElementById('blog-iframe').src = "https://portfolio-2bb.pages.dev/" + id;
+      document.getElementById('blog-iframe').src = "https://master.portfolio-2bb.pages.dev/" + id;
     }
   </script>
 </body>
